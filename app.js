@@ -5,7 +5,7 @@ const app = new express() ;
 const router = require("./src/routes/api")
 
 //importing database
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 //importing security middlewares
 

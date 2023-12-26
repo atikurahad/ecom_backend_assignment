@@ -1,17 +1,16 @@
-
-
 //importing database
 const mongoose = require("mongoose");
 
 //creating schema(database model)
-const DataSchema = mongoose.Schema({
+const DataSchema = mongoose.Schema(
+  {
+    productID: { type: mongoose.Schema.Types.ObjectId, required: true },
+    userID: { type: mongoose.Schema.Types.ObjectId, required: true },
+    des: { type: String, required: true },
+    rating: { type: String, required: true },
+  },
+  { timestamps: true, versionKey: false }
+);
 
-    productID :{type: mongoose.Schema.Types.ObjectId , required:true},
-    userID :{type: mongoose.Schema.Types.ObjectId , required:true},
-    des :{type:String , required:true},
-    rating :{type:String , required:true}
-
-},{ timestamps:true , versionKey:false });
-
-const ReviewModel = mongoose.model("reviews" , DataSchema );
+const ReviewModel = mongoose.model("reviews", DataSchema);
 module.exports = ReviewModel;

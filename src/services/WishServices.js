@@ -1,9 +1,4 @@
-/*
-* Author: Md. Sholayman
-* Description: This is the file that contains all the services for the controllers of the wish.
-* Basically in this file We will complete all the query for wish controllers.
-* Date : 25 December 2023
-* */
+
 
 //importing necessary models for wish list
 const WishModel = require("../models/WishModel");

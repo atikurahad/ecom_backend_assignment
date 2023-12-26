@@ -1,8 +1,3 @@
-/*
-* Author: Md. Sholayman
-* Description: This is the file that contains two helper function for jwt token
-* Date : 25 December 2023
-* */
 
 //importing jsonwebtoken
 const jwt = require("jsonwebtoken");

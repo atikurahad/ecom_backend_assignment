@@ -1,8 +1,4 @@
-/*
-* Author: Md. Sholayman
-* Description: This is the file that contains all the controllers for the carts.
-* Date : 26 December 2023
-* */
+
 
 //importing cart list services
 const {SaveCartListService,UpdateCartListService,RemoveCartListService,CartListService}=require("../services/CartServices");

@@ -1,8 +1,3 @@
-/*
-* Author: Md. Sholayman
-* Description: This file contains data table model for all profiles
-* Date : 23 December 2023
-* */
 
 //importing database
 const mongoose = require("mongoose");

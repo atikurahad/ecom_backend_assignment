@@ -1,8 +1,4 @@
-/*
-* Author: Md. Sholayman
-* Description: This is the file that contains all the controllers for the products.
-* Date : 24 December 2023
-* */
+
 
 //importing services for product
 const { BrandListService , CategoryListService, SliderListService , ListByBrandService ,

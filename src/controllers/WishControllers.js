@@ -1,8 +1,4 @@
-/*
-* Author: Md. Sholayman
-* Description: This is the file that contains all the controllers for the wishes.
-* Date : 25 December 2023
-* */
+
 
 //importing all the wish list services
 const {SaveWishListService,RemoveWishListService,WishListService} = require("../services/WishServices");

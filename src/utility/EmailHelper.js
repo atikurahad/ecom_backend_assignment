@@ -1,8 +1,3 @@
-/*
-* Author: Md. Sholayman
-* Description: This is the file that contains a helper function for sending email to client.
-* Date : 25 December 2023
-* */
 
 //importing nodemailer
 const nodemailer = require("nodemailer");

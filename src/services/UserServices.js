@@ -1,9 +1,4 @@
-/*
-* Author: Md. Sholayman
-* Description: This is the file that contains all the services for the controllers of the User.
-* Basically in this file We will complete all the query for user controllers.
-* Date : 25 December 2023
-* */
+
 
 //importing all the necessary models
 const UserModel = require("../models/UserModel");

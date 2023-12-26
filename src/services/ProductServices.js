@@ -1,9 +1,3 @@
-/*
-* Author: Md. Sholayman
-* Description: This is the file that contains all the services for the controllers of the Product.
-* Basically in this file We will complete all the query for product controllers.
-* Date : 23-24 December 2023
-* */
 
 //importing necessary modules
 const mongoose = require("mongoose");

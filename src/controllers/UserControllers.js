@@ -1,8 +1,4 @@
-/*
-* Author: Md. Sholayman
-* Description: This is the file that contains all the controllers for the users.
-* Date : 25 December 2023
-* */
+
 
 //importing all the service function for these controllers
 const {UserOTPService,VerifyLoginService,SaveProfileService,

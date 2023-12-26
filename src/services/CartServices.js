@@ -1,9 +1,4 @@
-/*
-* Author: Md. Sholayman
-* Description: This is the file that contains all the services for the controllers of the carts.
-* Basically in this file We will complete all the query for cart controllers.
-* Date : 26 December 2023
-* */
+
 
 //importing necessary modules
 const mongoose = require("mongoose");

@@ -1,8 +1,3 @@
-/*
-* Author: Md. Sholayman
-* Description: This is the file that contains a middleware function that verifies if a user is valid or not.
-* Date : 25 December 2023
-* */
 
 //importing helper function to decode jwt token
 const {decodeToken} = require("../utility/TokenHelper");
